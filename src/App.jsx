@@ -3,8 +3,6 @@ import 'bootstrap'
 
 
 export default function App(props) {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="container">
       <div className="mt-5">
@@ -25,31 +23,39 @@ export default function App(props) {
       <div className="row justify-content-center align-items-center g-5">
         <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
-          <span className="overlay-text">Cosas aqui equisde</span>
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
-        <div className="col-auto">
+        <div className="col-auto imagebox">
           <img src="https://via.placeholder.com/300" />
+          <span className="overlay-text">Descripcion foto</span>
         </div>
 
       </div>
