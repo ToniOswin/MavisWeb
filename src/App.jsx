@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import 'bootstrap'
+import mirrors from './Images/mirrors.jpg'
+import pearl from './Images/pearl.jpg'
+import hair01 from './Images/hair01.jpg'
+import hair02 from './Images/hair02.jpg'
+import hair03 from './Images/hair03.jpg'
+import hair04 from './Images/hair04.jpg'
+import hair05 from './Images/hair05.jpg'
+import hair06 from './Images/hair06.jpg'
 
 
-export default function App(props) {
+export default function App() {
   return (
     <div className="container">
       <div className="mt-5">
         <div className="row align-items-center my-5 gy-2 text-center flex-column-reverse flex-md-row">
           <div className="col">
-            <img className="mw-100 shadow" src="/src/Images/mirrors.jpg" />
+            <img className="mw-100 shadow" src={mirrors} />
           </div>
           <div className="col">
             <h2 className="pb-4 mb-4 border-bottom border-warning">Mavi's by dunamis</h2>
@@ -29,7 +35,7 @@ export default function App(props) {
             <p>Descubre nuestra colección en colaboracion y compra el regalo ideal.</p>
           </div>
           <div className="col">
-            <img className="mw-100 shadow" src="/src/Images/pearl.jpg" />
+            <img className="mw-100 shadow" src={pearl} />
           </div>
         </div>
       </div>
@@ -43,7 +49,7 @@ export default function App(props) {
         <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
-              src="/src/Images/hair01.jpg"
+              src={hair01}
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
@@ -51,7 +57,7 @@ export default function App(props) {
           </div>
           <div className="imagebox">
             <img
-              src="/src/Images/hair02.jpg"
+              src={hair02}
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
@@ -62,7 +68,7 @@ export default function App(props) {
         <div className="col-lg-4 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
-              src="/src/Images/hair03.jpg"
+              src={hair03}
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
@@ -71,7 +77,7 @@ export default function App(props) {
 
           <div className="imagebox">
             <img
-              src="/src/Images/hair04.jpg"
+              src={hair04}
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
@@ -82,7 +88,7 @@ export default function App(props) {
         <div className="col-lg-4 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
-              src="/src/Images/hair05.jpg"
+              src={hair05}
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />
@@ -90,7 +96,7 @@ export default function App(props) {
           </div>
           <div className="imagebox">
             <img
-              src="/src/Images/hair06.jpg"
+              src={hair06}
               className="w-100 shadow-1-strong rounded mb-4"
               alt=""
             />

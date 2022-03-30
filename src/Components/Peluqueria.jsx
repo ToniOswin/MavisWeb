@@ -1,5 +1,5 @@
 
-export default function Peluqueria(props) {
+export default function Peluqueria() {
     return <div className="container">
         <div className="mt-5">
             <div className="row align-items-center my-5 gy-2  flex-column-reverse flex-md-row text-center">

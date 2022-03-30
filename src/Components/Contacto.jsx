@@ -1,5 +1,5 @@
 
-export default function Contacto(props) {
+export default function Contacto() {
     return (
         <div className="mt-5 bg-light row">
             <div className="col">

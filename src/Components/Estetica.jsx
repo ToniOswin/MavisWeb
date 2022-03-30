@@ -1,4 +1,4 @@
-export default function Estetica(props) {
+export default function Estetica() {
     return <div className="container">
         <div className="mt-5">
             <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
