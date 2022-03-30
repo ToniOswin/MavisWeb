@@ -18,10 +18,10 @@ export default function App() {
           </div>
           <div className="col">
             <h2 className="pb-4 mb-4 border-bottom border-warning">Mavi's by dunamis</h2>
-            <p>Somos una peluqueria y estetica situada en Palma de Mallorca</p>
+            <p>Somos una peluquería y estética situada en Palma de Mallorca</p>
             <p>Contamos con una Maestra peluquera con años de experiencia</p>
-            <p>Y una Masajista titulada especialista en masajes y tratamientos terapeuticos</p>
-            <p>Mejora tu belleza y cuida tu salud en nuextro centro</p>
+            <p>Y una Masajista titulada especialista en masajes y tratamientos terapéuticos</p>
+            <p>Mejora tu belleza y cuida tu salud en nuestro centro</p>
             <p></p>
           </div>
         </div>
@@ -32,7 +32,7 @@ export default function App() {
             <h2 className="pb-4 mb-4 border-bottom border-warning" >Majorica</h2>
             <p>La perla del mediterráneo. Majorica nació en Mallorca en 1890.</p>
             <p>Plata de Ley y perlas cultivadas de la mejor calidad</p>
-            <p>Descubre nuestra colección en colaboracion y compra el regalo ideal.</p>
+            <p>Descubre nuestra colección en colaboración y compra el regalo ideal.</p>
           </div>
           <div className="col">
             <img className="mw-100 shadow" src={pearl} />
@@ -41,8 +41,8 @@ export default function App() {
       </div>
 
 
-      <div className="d-flex justify-content-center my-5">
-        <h1>Galeria de fotos</h1>
+      <div className="d-flex justify-content-center my-5 pb-4 mb-4 border-bottom border-warning">
+        <h1>Conoce nuestro trabajo</h1>
       </div>
 
       <div className="row">
