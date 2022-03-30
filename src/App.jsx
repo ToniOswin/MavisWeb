@@ -46,7 +46,7 @@ export default function App() {
       </div>
 
       <div className="row">
-        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
               src={hair01}
@@ -55,6 +55,8 @@ export default function App() {
             />
             <span className="overlay-text">Peinado</span>
           </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
               src={hair02}
@@ -64,8 +66,7 @@ export default function App() {
             <span className="overlay-text">Color y peinado</span>
           </div>
         </div>
-
-        <div className="col-lg-4 mb-4 mb-lg-0">
+        <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
               src={hair03}
@@ -74,6 +75,8 @@ export default function App() {
             />
             <span className="overlay-text">Alisado Keratina</span>
           </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
 
           <div className="imagebox">
             <img
@@ -84,8 +87,7 @@ export default function App() {
             <span className="overlay-text">Color, mechas y corte</span>
           </div>
         </div>
-
-        <div className="col-lg-4 mb-4 mb-lg-0">
+        <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
               src={hair05}
@@ -94,6 +96,8 @@ export default function App() {
             />
             <span className="overlay-text">Corte y peinado</span>
           </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
           <div className="imagebox">
             <img
               src={hair06}
