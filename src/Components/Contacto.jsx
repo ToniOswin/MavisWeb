@@ -12,7 +12,7 @@ export default function Contacto() {
             <div className="col mt-5">
                 <h5 className="title text-center">Mavi's by dunamis</h5>
                 <p>Estamos para ayudarte, contacta con nosotros y te responderemos con la mayor brevedad</p>
-                <h5>Tienda</h5>
+                <h5>Local</h5>
                 <p>
                     Marques de la senia 11B
                     <br />
