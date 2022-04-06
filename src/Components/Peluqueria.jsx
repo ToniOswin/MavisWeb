@@ -6,11 +6,11 @@ import Article from './Article'
 export default function Peluqueria() {
     return <div className="container">
         <div className="mt-5">
-            <div className="row align-items-center my-5 gy-2  flex-column-reverse flex-md-row text-center">
+            <div className="row align-items-center my-5 gy-2 text-center flex-column-reverse flex-md-row">
                 <div className="col">
                     <img
                         src={hair01}
-                        className="shadow rounded mb-4"
+                        className="shadow rounded mb-4 mw-100"
                         alt=""
                     />
                 </div>
@@ -45,7 +45,7 @@ export default function Peluqueria() {
                 <div className="col">
                     <img
                         src={hair10}
-                        className="shadow rounded mb-4"
+                        className="shadow rounded mb-4 mw-100"
                         alt=""
                     />
                 </div>
@@ -57,7 +57,7 @@ export default function Peluqueria() {
                 <div className="col">
                     <img
                         src={hair09}
-                        className="shadow rounded mb-4"
+                        className="shadow rounded mb-4 mw-100"
                         alt=""
                     />
                 </div>
