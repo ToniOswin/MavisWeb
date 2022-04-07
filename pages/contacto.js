@@ -9,7 +9,7 @@ export default function Contacto() {
             </div>
 
             <div className="col mt-5">
-                <h5 className="title text-center">Mavi's by dunamis</h5>
+                <h5 className="title text-center">Mavi&apos;s by dunamis</h5>
                 <p>Estamos para ayudarte, contacta con nosotros y te responderemos con la mayor brevedad</p>
                 <h5>Local</h5>
                 <p>
