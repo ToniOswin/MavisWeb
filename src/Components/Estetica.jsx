@@ -1,13 +1,29 @@
+import Article from "./Article";
+import color from '../Images/color.jpg'
+import massage from '../Images/massage.jpg'
+import eye from '../Images/eye.jpg'
+
 export default function Estetica() {
     return <div className="container">
         <div className="mt-5">
             <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
                 <div className="col">
-                    <h2>Radiofrequencia</h2>
-                    <p>Descripcion de la peluqueria</p>
+                    <Article title="Manicura y Pedicura">
+                        <p>
+                            Las manos son nuestras cartas de presentación, por ellos nuestras empleadas están certificadas para el cuidado de tú unas.
+                        </p>
+                        <p>
+                            Manicura francesa, colores nude o puros, encuentra tu estilo para lucir siempre radiante.
+
+                        </p>
+                    </Article>
                 </div>
                 <div className="col">
-                    <img className="mw-100" src="https://via.placeholder.com/500x400" />
+                    <img
+                        src={color}
+                        className="shadow rounded mb-4 mw-100"
+                        alt=""
+                    />
                 </div>
             </div>
         </div>
@@ -15,11 +31,23 @@ export default function Estetica() {
         <div className="mt-5">
             <div className="row align-items-center my-5 gy-2 flex-column-reverse flex-md-row text-center">
                 <div className="col">
-                    <img className="mw-100" src="https://via.placeholder.com/500x400" />
+                    <img
+                        src={massage}
+                        className="shadow rounded mb-4 mw-100"
+                        alt=""
+                    />
                 </div>
                 <div className="col">
-                    <h2>Masajes</h2>
-                    <p>Descripcion de la peluqueria</p>
+                    <Article title="Masajes y Radiofrecuencia">
+                        <p>
+                            El ritual corporal es el sello de nuestros tratamientos. 45 min de masaje combinado (relajante, descontracturante y
+                            drenante) que te dejaran como nuevo, pruebalo ahora por una calidad de vida mejor.
+                        </p>
+                        <p>
+                            La radiofrecuencia consiste en la aplicación de ondas electromagnéticas de alta frecuencia sobre la piel que provoca
+                            el calentamiento controlado de las diferentes capas de la dermis, ayudando a la formación de colágeno, el drenaje linfático y más!
+                        </p>
+                    </Article>
                 </div>
             </div>
         </div>
@@ -27,8 +55,15 @@ export default function Estetica() {
         <div className="mt-5">
             <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
                 <div className="col">
-                    <h2>Depilacion</h2>
-                    <p>Descripcion de la peluqueria</p>
+                    <Article title="Depilación">
+                        <p>
+                            Acaba con ese pelo indeseado en la zona que necesites con nuestras profesionales.
+                        </p>
+                        <p>
+                            ¡Expertas en el uso de la cera, también disponemos una vez al mes del servicio de depilación láser
+                            para que no tengas que preocuparte más por esos pelos molestos, infórmate ahora!
+                        </p>
+                    </Article>
                 </div>
                 <div className="col">
                     <img className="mw-100" src="https://via.placeholder.com/500x400" />
@@ -39,11 +74,22 @@ export default function Estetica() {
         <div className="mt-5">
             <div className="row align-items-center my-5 gy-2 flex-column-reverse flex-md-row text-center">
                 <div className="col">
-                    <img className="mw-100" src="https://via.placeholder.com/500x400" />
+                    <img
+                        src={eye}
+                        className="shadow rounded mb-4 mw-100"
+                        alt=""
+                    />
                 </div>
                 <div className="col">
-                    <h2>Lifting</h2>
-                    <p>Descripcion de la peluqueria</p>
+                    <Article title="Lifting de pestañas">
+                        <p>
+                            ¡Nuestra mirada dice mucho de nosotros, por eso deja en nuestras manos una mirada más fuerte y bella!
+                        </p>
+                        <p>
+                            Con el lifting de pestañas le darás un nuevo nivel a tus pestañas, ese volumen que te lleva mucho trabajo cada día
+                            ahora lo tendrás cada día al levantarte.¡no pierdas la oportunidad!
+                        </p>
+                    </Article>
                 </div>
             </div>
         </div>
