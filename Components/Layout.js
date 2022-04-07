@@ -1,32 +1,57 @@
-import { NavLink } from "react-router-dom";
 import logo from "../Images/logo_cut.png";
-import { Collapse } from 'bootstrap'
 import { useEffect, useState } from "react";
+import Link from "next/link";
+
+let Bootstrap;
+if (typeof window !== "undefined") {
+    Bootstrap = import('bootstrap');
+}
 
 export default function Layout(props) {
     const [toggle, setToggle] = useState(false);
 
     useEffect(() => {
+        if (typeof window === "undefined") return;
         const myCollapse = document.getElementById('navbarNavAltMarkup')
-        const bsCollapse = new Collapse(myCollapse, { toggle: false })
-        toggle ? bsCollapse.show() : bsCollapse.hide()
+        Bootstrap.then(bootstrap => {
+            const bsCollapse = new bootstrap.Collapse(myCollapse, { toggle: false })
+            toggle ? bsCollapse.show() : bsCollapse.hide()
+        })
     }, [toggle])
 
     return <div>
         <div className="container-fluid d-flex justify-content-center fixed-top bg-white shadow ">
             <nav className="navbar navbar-expand-md navbar-light bg-white justify-content-between ">
-                <NavLink className="navbar-brand" to="/">
-                    <img className="mw-100" height={50} src={logo} alt="Logo" />
-                </NavLink>
+                <Link href="/">
+                    <a className="navbar-brand">
+                        <img className="mw-100" height={50} src={logo.src} alt="Logo" />
+                    </a>
+                </Link>
                 <button onClick={() => setToggle(toggle => !toggle)} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse ms-5" id="navbarNavAltMarkup">
                     <div className="navbar-nav fs-4">
-                        <NavLink className="nav-item nav-link mx-2 mx-lg-5" to="/">Inicio</NavLink>
-                        <NavLink className="nav-item nav-link mx-2 mx-lg-5" to="/peluqueria">Peluqueria</NavLink>
-                        <NavLink className="nav-item nav-link mx-2 mx-lg-5" to="/estetica">Estetica</NavLink>
-                        <NavLink className="nav-item nav-link mx-2 mx-lg-5" to="/contacto">Contacto</NavLink>
+                        <Link href="/">
+                            <a className="nav-item nav-link mx-2 mx-lg-5">
+                                Inicio
+                            </a>
+                        </Link>
+                        <Link href="/peluqueria">
+                            <a className="nav-item nav-link mx-2 mx-lg-5">
+                                Peluqueria
+                            </a>
+                        </Link>
+                        <Link href="/estetica">
+                            <a className="nav-item nav-link mx-2 mx-lg-5">
+                                Estetica
+                            </a>
+                        </Link>
+                        <Link href="/contacto">
+                            <a className="nav-item nav-link mx-2 mx-lg-5">
+                                Contacto
+                            </a>
+                        </Link>
                     </div>
                 </div>
             </nav>

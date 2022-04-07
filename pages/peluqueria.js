@@ -1,7 +1,7 @@
 import hair01 from '../Images/hair01.jpg'
 import hair10 from '../Images/hair10.jpg'
 import hair09 from '../Images/hair09.jpg'
-import Article from './Article'
+import Article from '../Components/Article'
 
 export default function Peluqueria() {
     return <div className="container">
@@ -9,9 +9,9 @@ export default function Peluqueria() {
             <div className="row align-items-center my-5 gy-2 text-center flex-column-reverse flex-md-row">
                 <div className="col">
                     <img
-                        src={hair01}
+                        src={hair01.src}
                         className="shadow rounded mb-4 mw-100"
-                        alt=""
+                        alt="Cortes y peinados"
                     />
                 </div>
                 <div className="col">
@@ -44,9 +44,9 @@ export default function Peluqueria() {
                 </div>
                 <div className="col">
                     <img
-                        src={hair10}
+                        src={hair10.src}
                         className="shadow rounded mb-4 mw-100"
-                        alt=""
+                        alt="Tintes"
                     />
                 </div>
             </div>
@@ -56,9 +56,9 @@ export default function Peluqueria() {
             <div className="row align-items-center my-5 gy-2  flex-column-reverse flex-md-row text-center">
                 <div className="col">
                     <img
-                        src={hair09}
+                        src={hair09.src}
                         className="shadow rounded mb-4 mw-100"
-                        alt=""
+                        alt="Alisado Keratina"
                     />
                 </div>
                 <div className="col">

@@ -1,4 +1,4 @@
-import Article from "./Article";
+import Article from "../Components/Article";
 import color from '../Images/color.jpg'
 import massage from '../Images/massage.jpg'
 import eye from '../Images/eye.jpg'
@@ -20,9 +20,9 @@ export default function Estetica() {
                 </div>
                 <div className="col">
                     <img
-                        src={color}
+                        src={color.src}
                         className="shadow rounded mb-4 mw-100"
-                        alt=""
+                        alt="Manicura y Pedicura"
                     />
                 </div>
             </div>
@@ -32,9 +32,9 @@ export default function Estetica() {
             <div className="row align-items-center my-5 gy-2 flex-column-reverse flex-md-row text-center">
                 <div className="col">
                     <img
-                        src={massage}
+                        src={massage.src}
                         className="shadow rounded mb-4 mw-100"
-                        alt=""
+                        alt="Masajes y Radiofrecuencia"
                     />
                 </div>
                 <div className="col">
@@ -66,7 +66,7 @@ export default function Estetica() {
                     </Article>
                 </div>
                 <div className="col">
-                    <img className="mw-100" src="https://via.placeholder.com/500x400" />
+                    <img className="mw-100" src="https://via.placeholder.com/500x400" alt="Depilación" />
                 </div>
             </div>
         </div>
@@ -75,9 +75,9 @@ export default function Estetica() {
             <div className="row align-items-center my-5 gy-2 flex-column-reverse flex-md-row text-center">
                 <div className="col">
                     <img
-                        src={eye}
+                        src={eye.src}
                         className="shadow rounded mb-4 mw-100"
-                        alt=""
+                        alt="Lifting de pestañas"
                     />
                 </div>
                 <div className="col">

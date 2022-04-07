@@ -1,12 +1,12 @@
-import mirrors from './Images/mirrors.jpg'
-import pearl from './Images/pearl.jpg'
-import hair08 from './Images/hair08.jpg'
-import hair02 from './Images/hair02.jpg'
-import hair03 from './Images/hair03.jpg'
-import hair04 from './Images/hair04.jpg'
-import hair05 from './Images/hair05.jpg'
-import hair06 from './Images/hair06.jpg'
-import Article from './Components/Article'
+import mirrors from '../Images/mirrors.jpg'
+import pearl from '../Images/pearl.jpg'
+import hair08 from '../Images/hair08.jpg'
+import hair02 from '../Images/hair02.jpg'
+import hair03 from '../Images/hair03.jpg'
+import hair04 from '../Images/hair04.jpg'
+import hair05 from '../Images/hair05.jpg'
+import hair06 from '../Images/hair06.jpg'
+import Article from '../Components/Article'
 
 
 export default function App() {
@@ -15,10 +15,10 @@ export default function App() {
       <div className="mt-5">
         <div className="row align-items-center my-5 gy-2 text-center flex-column-reverse flex-md-row">
           <div className="col">
-            <img className="mw-100 shadow" src={mirrors} />
+            <img className="mw-100 shadow" src={mirrors.src} alt="Peluqueria Mavi's by Dunamis" />
           </div>
           <div className="col">
-            <Article title="Mavi's by dunamis">
+            <Article title="Mavi's by Dunamis">
               <p>Somos una peluquería y estética situada en Palma de Mallorca</p>
               <p>Contamos con una Maestra peluquera con años de experiencia</p>
               <p>Y una Masajista titulada especialista en masajes y tratamientos terapéuticos</p>
@@ -37,7 +37,7 @@ export default function App() {
             </Article>
           </div>
           <div className="col">
-            <img className="mw-100 shadow" src={pearl} />
+            <img className="mw-100 shadow" src={pearl.src} alt="Perlas de mallorca" />
           </div>
         </div>
       </div>
@@ -46,9 +46,9 @@ export default function App() {
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="imagebox">
               <img
-                src={hair08}
+                src={hair08.src}
                 className="w-100 shadow-1-strong rounded mb-4"
-                alt=""
+                alt="corte y peinado"
               />
               <span className="overlay-text"> corte y peinado</span>
             </div>
@@ -56,9 +56,9 @@ export default function App() {
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="imagebox">
               <img
-                src={hair02}
+                src={hair02.src}
                 className="w-100 shadow-1-strong rounded mb-4"
-                alt=""
+                alt="Color y peinado"
               />
               <span className="overlay-text">Color y peinado</span>
             </div>
@@ -66,9 +66,9 @@ export default function App() {
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="imagebox">
               <img
-                src={hair03}
+                src={hair03.src}
                 className="w-100 shadow-1-strong rounded mb-4"
-                alt=""
+                alt="Alisado Keratina"
               />
               <span className="overlay-text">Alisado Keratina</span>
             </div>
@@ -77,9 +77,9 @@ export default function App() {
 
             <div className="imagebox">
               <img
-                src={hair04}
+                src={hair04.src}
                 className="w-100 shadow-1-strong rounded mb-4"
-                alt=""
+                alt="Color, mechas y corte"
               />
               <span className="overlay-text">Color, mechas y corte</span>
             </div>
@@ -87,9 +87,9 @@ export default function App() {
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="imagebox">
               <img
-                src={hair05}
+                src={hair05.src}
                 className="w-100 shadow-1-strong rounded mb-4"
-                alt=""
+                alt="Corte y peinado"
               />
               <span className="overlay-text">Corte y peinado</span>
             </div>
@@ -97,9 +97,9 @@ export default function App() {
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
             <div className="imagebox">
               <img
-                src={hair06}
+                src={hair06.src}
                 className="w-100 shadow-1-strong rounded mb-4"
-                alt=""
+                alt="Color y mechas"
               />
               <span className="overlay-text">Color y mechas</span>
             </div>
