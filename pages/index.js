@@ -20,8 +20,8 @@ export default function App() {
           <div className="col">
             <Article title="Mavi's by Dunamis">
               <p>Somos una peluquería y estética situada en Palma de Mallorca</p>
-              <p>Contamos con una Maestra peluquera con años de experiencia</p>
-              <p>Y una Masajista titulada especialista en masajes y tratamientos terapéuticos</p>
+              <p>Contamos con una Maestra peluquera con años de experiencia y
+                una Masajista titulada especialista en masajes y tratamientos terapéuticos</p>
               <p>Mejora tu belleza y cuida tu salud en nuestro centro</p>
             </Article>
           </div>
