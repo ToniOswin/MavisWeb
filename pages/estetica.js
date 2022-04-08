@@ -1,6 +1,6 @@
 import Article from "../Components/Article";
 import color from '../Images/color.jpg'
-import massage from '../Images/massage.jpg'
+import camilla from '../Images/camilla.jpg'
 import eye from '../Images/eye.jpg'
 import cera from '../Images/cera.jpg'
 
@@ -33,7 +33,7 @@ export default function Estetica() {
             <div className="row align-items-center my-5 gy-2 flex-column-reverse flex-md-row text-center">
                 <div className="col">
                     <img
-                        src={massage.src}
+                        src={camilla.src}
                         className="shadow rounded mb-4 mw-100"
                         alt="Masajes y Radiofrecuencia"
                     />
