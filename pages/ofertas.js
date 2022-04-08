@@ -21,7 +21,7 @@ export default function Estetica({ ofertas }) {
             <p>¡Cambian con regularidad y son limitadas, no te las pierdas!</p>
             <p>
                 Al pulsar el botón comprar te llevará a la web del banco para poder hacer la compra,
-                una vez adquirido, mándanos un mensaje para poder darte cita lo antes posible
+                una vez adquirido, contactanos para poder darte cita lo antes posible
             </p>
         </Article>
         <div className="row my-5 text-center">
