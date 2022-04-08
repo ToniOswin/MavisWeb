@@ -27,7 +27,7 @@ export default function Estetica({ ofertas }) {
         <div className="row my-5 text-center">
             {ofertas.map(oferta =>
                 <div key={oferta.id} className="col-lg-3 mx-auto d-flex align-items-stretch">
-                    <div className="card text-center ">
+                    <div className="card text-center shadow ">
                         <img className="card-img-top p-3" src={oferta.foto} alt="Card image cap" />
                         <div className="card-body d-flex flex-column">
                             <h5 className="card-title">{oferta.titulo}</h5>
