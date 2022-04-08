@@ -2,6 +2,7 @@ import Article from "../Components/Article";
 import color from '../Images/color.jpg'
 import massage from '../Images/massage.jpg'
 import eye from '../Images/eye.jpg'
+import cera from '../Images/cera.jpg'
 
 export default function Estetica() {
     return <div className="container">
@@ -66,7 +67,11 @@ export default function Estetica() {
                     </Article>
                 </div>
                 <div className="col">
-                    <img className="mw-100" src="https://via.placeholder.com/500x400" alt="Depilación" />
+                    <img
+                        src={cera.src}
+                        className="shadow rounded mb-4 mw-100"
+                        alt="depilacion"
+                    />
                 </div>
             </div>
         </div>

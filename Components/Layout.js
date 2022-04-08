@@ -60,9 +60,7 @@ export default function Layout(props) {
             {props.children}
         </div>
         <div className="container-fluid d-flex justify-content-center bg-white shadow mt-5">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore expedita fugit itaque optio fuga dignissimos magnam libero voluptatibus laboriosam provident veritatis, incidunt vitae repellendus, molestias eligendi. Nulla repellendus numquam temporibus.
-            </p>
+
         </div>
     </div>
 }
