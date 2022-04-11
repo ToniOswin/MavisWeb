@@ -4,7 +4,7 @@ export default function Contacto() {
             <div className="col">
                 <h5 className="text-center py-3">Encuentranos!</h5>
                 <div className="text-center">
-                    <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=mavis%20by%20dunamis,%20palma&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no"></iframe>
+                    <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=mavis%20by%20dunamis,%20palma&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no"></iframe>
                 </div>
             </div>
 

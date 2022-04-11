@@ -16,7 +16,7 @@ export default function Productos({ products }) {
     return <div className="container mt-5">
         <Article title="Nuestros productos">
             <p>
-                En mavi's by dunammis trabajamos siempre con las mejores marcas y por ello tenemos a la venta
+                En mavi&apos;s by dunammis trabajamos siempre con las mejores marcas y por ello tenemos a la venta
                 productos de las principales casas sinonimo a calidad.
             </p>
             <p>
