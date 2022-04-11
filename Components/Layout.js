@@ -32,28 +32,28 @@ export default function Layout(props) {
                 </button>
                 <div className="collapse navbar-collapse ms-5" id="navbarNavAltMarkup">
                     <div className="navbar-nav fs-4">
-                        <Link href="/">
-                            <a className="nav-item nav-link mx-2 mx-lg-4">
+                        <Link href="/" >
+                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
                                 Inicio
                             </a>
                         </Link>
                         <Link href="/peluqueria">
-                            <a className="nav-item nav-link mx-2 mx-lg-4">
+                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
                                 Peluqueria
                             </a>
                         </Link>
                         <Link href="/estetica">
-                            <a className="nav-item nav-link mx-2 mx-lg-4">
+                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
                                 Estetica
                             </a>
                         </Link>
                         <Link href="/ofertas">
-                            <a className="nav-item nav-link mx-2 mx-lg-4">
+                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
                                 Ofertas
                             </a>
                         </Link>
                         <Link href="/contacto">
-                            <a className="nav-item nav-link mx-2 mx-lg-4">
+                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
                                 Contacto
                             </a>
                         </Link>

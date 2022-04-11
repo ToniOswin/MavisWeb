@@ -11,11 +11,10 @@ export default function Estetica() {
                 <div className="col">
                     <Article title="Manicura y Pedicura">
                         <p>
-                            Las manos son nuestras cartas de presentación, por ellos nuestras empleadas están certificadas para el cuidado de tú unas.
+                            Las manos son nuestras cartas de presentación, por ellos nuestras empleadas están certificadas para el cuidado de tus uñas.
                         </p>
                         <p>
                             Manicura francesa, colores nude o puros, encuentra tu estilo para lucir siempre radiante.
-
                         </p>
                     </Article>
                 </div>

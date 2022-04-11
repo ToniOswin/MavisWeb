@@ -1,6 +1,7 @@
 import hair01 from '../Images/hair01.jpg'
 import hair10 from '../Images/hair10.jpg'
 import hair09 from '../Images/hair09.jpg'
+import hair03 from '../Images/hair03.jpg'
 import Article from '../Components/Article'
 
 export default function Peluqueria() {
@@ -75,5 +76,26 @@ export default function Peluqueria() {
                 </div>
             </div>
         </div>
+
+        <div className="mt-5">
+            <div className="row align-items-center my-5 gy-2  flex-column-reverse flex-md-row text-center">
+                <div className="col">
+                    <Article title="Plex Forte">
+                        <p>
+                            Tratamiento hidratante para reparar la estructura del cabello aportando la máxima fuerza y protegiéndolo
+                            así como fortaleciendo el cabello a largo plazo.
+                        </p>
+                    </Article>
+                </div>
+                <div className="col">
+                    <img
+                        src={hair03.src}
+                        className="shadow rounded mb-4 mw-100"
+                        alt="hidratacion plex forte"
+                    />
+                </div>
+            </div>
+        </div>
+
     </div>
 }
