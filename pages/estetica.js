@@ -3,6 +3,7 @@ import color from '../Images/color.jpg'
 import camilla from '../Images/camilla.jpg'
 import eye from '../Images/eye.jpg'
 import cera from '../Images/cera.jpg'
+import dieta from '../Images/dieta.jpg'
 
 export default function Estetica() {
     return <div className="container">
@@ -94,6 +95,29 @@ export default function Estetica() {
                             ahora lo tendrás cada día al levantarte.¡no pierdas la oportunidad!
                         </p>
                     </Article>
+                </div>
+            </div>
+        </div>
+
+        <div className="mt-5">
+            <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
+                <div className="col">
+                    <Article title="Cuidado del Peso">
+                        <p>
+                            Una parte importante del cuidado de la salud es el control del peso y la alimentación, por eso trabajamos con Health
+                            &amp; beauty para ofrecer un servicio personalizado con seguimiento semanal para ayudarte a cumplir tus metas..
+                        </p>
+                        <p>
+                            Pide tu primera cita gratis para un primer control y orientación sin compromiso
+                        </p>
+                    </Article>
+                </div>
+                <div className="col">
+                    <img
+                        src={dieta.src}
+                        className="shadow rounded mb-4 mw-100"
+                        alt="depilacion"
+                    />
                 </div>
             </div>
         </div>
