@@ -27,20 +27,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="mt-5">
-        <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
-          <div className="col">
-            <Article title="Perlas de mallorca">
-              <p>La perla del mediterráneo</p>
-              <p>Plata de Ley y perlas cultivadas de la mejor calidad</p>
-              <p>Descubre nuestra colección y compra el regalo ideal.</p>
-            </Article>
-          </div>
-          <div className="col">
-            <img className="mw-100 shadow" src={pearl.src} alt="Perlas de mallorca" />
-          </div>
-        </div>
-      </div>
+
       <Article title="Conoce nuestro trabajo">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">

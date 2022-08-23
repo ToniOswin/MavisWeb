@@ -24,4 +24,5 @@ export default function Contacto() {
             </div>
         </div>
     );
+
 }
