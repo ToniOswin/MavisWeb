@@ -1,5 +1,4 @@
 import mirrors from '../Images/mirrors.jpg'
-import pearl from '../Images/pearl.jpg'
 import hair08 from '../Images/hair08.jpg'
 import hair02 from '../Images/hair02.jpg'
 import hair03 from '../Images/hair03.jpg'
