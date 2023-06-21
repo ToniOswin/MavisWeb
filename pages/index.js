@@ -10,12 +10,12 @@ export default function App() {
         <div className="row align-items-center my-5 gy-2 text-center">
           <div className="col-12 col-md-6">
             <Article title="Gabinete Dunamis">
-              <p>Dunamis es un gabinete terapeutico y estetico situado en el centro de Palma.</p>
-              <p>Nuestra masajista titulada es especialista en tratamientos terapéuticos y cuidara de tu salud de forma personalizada.</p>
-              <p>Ademas de un amplio abanico de tratamientos innovadores para cuidar tu imagen</p>
+              <p>Dunamis es un gabinete terapéutico y estético situado en el centro de Palma.</p>
+              <p>Nuestra masajista titulada es especialista en tratamientos terapéuticos y cuidará de tu salud de forma personalizada.</p>
+              <p>Además de un amplio abanico de tratamientos innovadores para cuidar tu imagen</p>
               <p className="fw-bold">Mejora tu belleza y cuida tu salud en nuestro centro</p>
-              <p>No pierdas la oportunidad de probar el Quiromasaje, terapias de suelo pélvico, reflexología podal, limpiezas faciales, 
-                Moxibustion, depilación láser diodo, maderoterapia, criolipolisis y mas!</p>
+              <p>No pierdas la oportunidad de probar el Quiromasaje, terapias de suelo pélvico, reflexología podal, limpiezas faciales,
+Combustión, depilación láser diodo, maderoterapia, criolipolisis y más!</p>
             </Article>
             <img className="mw-100 shadow my-3" src={sala.src} alt="Peluqueria Mavi's by Dunamis" />
             <div className="mt-3 bg-light row">

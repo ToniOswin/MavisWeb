@@ -11,6 +11,7 @@ export default function Estetica() {
                         <p>Bellaction, cuerpo completo, papada y zona facial incluida,190€ cuerpo completo (70€ por zona)</p>
                         <p>Hollywood peel 100€ sesión,</p>
                         <p>Lifting de pestañas 36€ y tinte de pestañas 15€</p>
+                        <p>Diseño y depilacion de cejas 30€</p>
                         <p>Reflexología Podal 30€ sesión</p>
                         <p>Facial profundo 70€</p>
                         <p>Tratamiento con despigmentación 90€ </p>
