@@ -1,126 +1,29 @@
 import Article from "../Components/Article";
-import color from '../Images/color.jpg'
-import camilla from '../Images/camilla.jpg'
-import eye from '../Images/eye.jpg'
-import cera from '../Images/cera.jpg'
-import dieta from '../Images/dieta.jpg'
+import bella from '../Images/Bellaction.jpeg'
+import crio from '../Images/Crio.jpeg'
 
 export default function Estetica() {
     return <div className="container">
         <div className="mt-5">
-            <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
-                <div className="col">
-                    <Article title="Manicura y Pedicura">
-                        <p>
-                            Las manos son nuestras cartas de presentación, por ellos nuestras empleadas están certificadas para el cuidado de tus uñas.
-                        </p>
-                        <p>
-                            Manicura francesa, colores nude o puros, encuentra tu estilo para lucir siempre radiante.
-                        </p>
+            <div className="align-items-center my-5 gy-2 flex-column flex-md-row text-center">
+                    <Article title="Nuestros servicios">
+                        <p>Criolipolisis 250€ por sesión 1 zona</p>
+                        <p>Bellaction, cuerpo completo, papada y zona facial incluida,190€ cuerpo completo (70€ por zona)</p>
+                        <p>Hollywood peel 100€ sesión,</p>
+                        <p>Lifting de pestañas 36€ y tinte de pestañas 15€</p>
+                        <p>Reflexología Podal 30€ sesión</p>
+                        <p>Facial profundo 70€</p>
+                        <p>Tratamiento con despigmentación 90€ </p>
+                        <p>Dermapen 100€ </p>
+                        <p>Ritual corporal con tres tipos de masajes 55€ la sesión,</p>
+                        <p>Masaje lomi lomi 60€</p>
+                        <p>Masaje deportivo 60€</p>
                     </Article>
-                </div>
-                <div className="col">
-                    <img
-                        src={color.src}
-                        className="shadow rounded mb-4 mw-100"
-                        alt="Manicura y Pedicura"
-                    />
-                </div>
             </div>
-        </div>
-
-        <div className="mt-5">
-            <div className="row align-items-center my-5 gy-2 flex-column-reverse flex-md-row text-center">
-                <div className="col">
-                    <img
-                        src={camilla.src}
-                        className="shadow rounded mb-4 mw-100"
-                        alt="Masajes y Radiofrecuencia"
-                    />
-                </div>
-                <div className="col">
-                    <Article title="Masajes y Radiofrecuencia">
-                        <p>
-                            El ritual corporal es el sello de nuestros tratamientos. 45 min de masaje combinado (relajante, descontracturante y
-                            drenante) que te dejaran como nuevo, pruebalo ahora por una calidad de vida mejor.
-                        </p>
-                        <p>
-                            La radiofrecuencia consiste en la aplicación de ondas electromagnéticas de alta frecuencia sobre la piel que provoca
-                            el calentamiento controlado de las diferentes capas de la dermis, ayudando a la formación de colágeno, el drenaje linfático y más!
-                        </p>
-                    </Article>
-                </div>
+            <div className="row align-items-center justify-content-center my-5 gy-2">
+                <img className="col-3 mw-100 shadow my-3" src={bella.src} alt="Peluqueria Mavi's by Dunamis" />  
+                <img className="col-3 mw-100 shadow my-3" src={crio.src} alt="Peluqueria Mavi's by Dunamis" />  
             </div>
-        </div>
-
-        <div className="mt-5">
-            <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
-                <div className="col">
-                    <Article title="Depilación">
-                        <p>
-                            Acaba con ese pelo indeseado en la zona que necesites con nuestras profesionales.
-                        </p>
-                        <p>
-                            ¡Expertas en el uso de la cera, también disponemos una vez al mes del servicio de depilación láser
-                            para que no tengas que preocuparte más por esos pelos molestos, infórmate ahora!
-                        </p>
-                    </Article>
-                </div>
-                <div className="col">
-                    <img
-                        src={cera.src}
-                        className="shadow rounded mb-4 mw-100"
-                        alt="depilacion"
-                    />
-                </div>
-            </div>
-        </div>
-
-        <div className="mt-5">
-            <div className="row align-items-center my-5 gy-2 flex-column-reverse flex-md-row text-center">
-                <div className="col">
-                    <img
-                        src={eye.src}
-                        className="shadow rounded mb-4 mw-100"
-                        alt="Lifting de pestañas"
-                    />
-                </div>
-                <div className="col">
-                    <Article title="Lifting de pestañas">
-                        <p>
-                            ¡Nuestra mirada dice mucho de nosotros, por eso deja en nuestras manos una mirada más fuerte y bella!
-                        </p>
-                        <p>
-                            Con el lifting de pestañas le darás un nuevo nivel a tus pestañas, ese volumen que te lleva mucho trabajo cada día
-                            ahora lo tendrás cada día al levantarte.¡no pierdas la oportunidad!
-                        </p>
-                    </Article>
-                </div>
-            </div>
-        </div>
-
-        <div className="mt-5">
-            <div className="row align-items-center my-5 gy-2 flex-column flex-md-row text-center">
-                <div className="col">
-                    <Article title="Cuidado del Peso">
-                        <p>
-                            Una parte importante del cuidado de la salud es el control del peso y la alimentación, por eso trabajamos con Health
-                            &amp; beauty para ofrecer un servicio personalizado con seguimiento semanal para ayudarte a cumplir tus metas..
-                        </p>
-                        <p>
-                            Pide tu primera cita gratis para un primer control y orientación sin compromiso
-                        </p>
-                    </Article>
-                </div>
-                <div className="col">
-                    <img
-                        src={dieta.src}
-                        className="shadow rounded mb-4 mw-100"
-                        alt="depilacion"
-                    />
-                </div>
-            </div>
-        </div>
-
+        </div>   
     </div>
 }

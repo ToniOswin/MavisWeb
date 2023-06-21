@@ -37,24 +37,9 @@ export default function Layout(props) {
                                 Inicio
                             </a>
                         </Link>
-                        <Link href="/peluqueria">
-                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
-                                Peluqueria
-                            </a>
-                        </Link>
                         <Link href="/estetica">
                             <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
-                                Estetica
-                            </a>
-                        </Link>
-                        <Link href="/ofertas">
-                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
-                                Ofertas
-                            </a>
-                        </Link>
-                        <Link href="/contacto">
-                            <a onClick={() => setToggle(false)} className="nav-item nav-link mx-2 mx-lg-4">
-                                Contacto
+                                Servicios
                             </a>
                         </Link>
                     </div>
@@ -63,9 +48,6 @@ export default function Layout(props) {
         </div>
         <div className="container-fluid d-flex justify-content-center mt-5 min-vh-100">
             {props.children}
-        </div>
-        <div className="container-fluid d-flex justify-content-center bg-white shadow mt-5">
-
         </div>
     </div>
 }
